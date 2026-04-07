@@ -77,5 +77,11 @@ final Level level2 = Level(
       subtitle: 'The Machine Learning Landscape',
       assetPath: 'assets/questions/challenge_05.json',
     ),
+    ChallengeInfo(
+      id: 'C06',
+      name: 'CHALLENGE 6',
+      subtitle: 'End-to-End Machine Learning Project',
+      assetPath: 'assets/questions/challenge_06.json',
+    ),
   ],
 );
