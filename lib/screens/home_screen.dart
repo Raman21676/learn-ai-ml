@@ -193,16 +193,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
                   const SizedBox(height: 32),
 
-                  // Level 1 Overview
-                  _buildLevelSection(context, level1, 1, progressProvider),
-                  
-                  const SizedBox(height: 32),
-                  
-                  // Level 2 Overview
-                  _buildLevelSection(context, level2, 2, progressProvider),
-
-                  const SizedBox(height: 32),
-
                   // Features
                   Text(
                     'Features',
@@ -242,57 +232,6 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
-    );
-  }
-
-  Widget _buildLevelSection(BuildContext context, Level level, int levelNum, ProgressProvider progressProvider) {
-    final theme = Theme.of(context);
-    final previewCount = level.challenges.length > 3 ? 3 : level.challenges.length;
-    
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          level.name,
-          style: theme.textTheme.titleLarge?.copyWith(
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        const SizedBox(height: 8),
-        Text(
-          level.description,
-          style: theme.textTheme.bodyMedium?.copyWith(
-            color: theme.colorScheme.onSurface.withOpacity(0.7),
-          ),
-        ),
-        const SizedBox(height: 16),
-
-        // Challenge Preview
-        ListView.builder(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          itemCount: previewCount,
-          itemBuilder: (context, index) {
-            final challenge = level.challenges[index];
-            final progress = progressProvider.getProgressForChallenge(challenge.id);
-            return _buildChallengePreview(context, challenge, progress);
-          },
-        ),
-
-        if (level.challenges.length > previewCount) ...[
-          const SizedBox(height: 12),
-          Center(
-            child: TextButton.icon(
-              onPressed: () => Navigator.push(
-                context,
-                MaterialPageRoute(builder: (_) => LevelScreen(levelId: levelNum)),
-              ),
-              icon: const Text('View All Challenges'),
-              label: const Icon(Icons.arrow_forward),
-            ),
-          ),
-        ],
-      ],
     );
   }
 
@@ -420,64 +359,6 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildChallengePreview(
-    BuildContext context,
-    ChallengeInfo challenge,
-    QuizProgress? progress,
-  ) {
-    final theme = Theme.of(context);
-    final challengeIndex = int.tryParse(challenge.id.substring(1)) ?? 1;
-    final color = AppColors.challengeColors[(challengeIndex - 1) % AppColors.challengeColors.length];
-    final isCompleted = progress?.isCompleted ?? false;
-    final levelId = challengeIndex <= 4 ? 1 : 2;
-
-    return Card(
-      margin: const EdgeInsets.only(bottom: 10),
-      elevation: 2,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      child: ListTile(
-        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        leading: Container(
-          width: 48,
-          height: 48,
-          decoration: BoxDecoration(
-            color: color.withOpacity(0.15),
-            borderRadius: BorderRadius.circular(12),
-          ),
-          child: Center(
-            child: isCompleted
-                ? Icon(Icons.check_circle, color: color)
-                : Text(
-                    challenge.id,
-                    style: TextStyle(
-                      color: color,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 14,
-                    ),
-                  ),
-          ),
-        ),
-        title: Text(
-          challenge.name,
-          style: const TextStyle(fontWeight: FontWeight.bold),
-        ),
-        subtitle: Text(
-          challenge.subtitle,
-          maxLines: 1,
-          overflow: TextOverflow.ellipsis,
-          style: TextStyle(color: Colors.grey[600], fontSize: 12),
-        ),
-        trailing: isCompleted
-            ? Icon(Icons.check_circle, color: AppColors.success)
-            : Icon(Icons.arrow_forward_ios, size: 16, color: Colors.grey[400]),
-        onTap: () => Navigator.push(
-          context,
-          MaterialPageRoute(builder: (_) => LevelScreen(levelId: levelId)),
         ),
       ),
     );
