@@ -46,5 +46,5 @@ TODO.md
 *_raw.txt
 *.log
 LOGS.md
-PROJECT_LOG.md
+# PROJECT_LOG.md - Intentionally tracked for AI agent continuity
 chapter*_raw.txt
