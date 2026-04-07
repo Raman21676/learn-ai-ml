@@ -28,6 +28,7 @@ flutter:
   
   assets:
     - assets/
+    - assets/data/
     - assets/questions/
     - assets/animations/
     - assets/images/

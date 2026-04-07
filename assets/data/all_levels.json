@@ -1,0 +1,24 @@
+{
+  "levels": [
+    {
+      "levelId": 1,
+      "levelName": "LEVEL 1",
+      "subtitle": "Foundations of AI & ML",
+      "description": "Learn the basics of artificial intelligence and machine learning.",
+      "totalChallenges": 4,
+      "icon": "psychology",
+      "color": "#4FC3F7",
+      "isLocked": false
+    },
+    {
+      "levelId": 2,
+      "levelName": "LEVEL 2",
+      "subtitle": "Intermediate ML Concepts",
+      "description": "Dive deeper into machine learning fundamentals and types of learning.",
+      "totalChallenges": 1,
+      "icon": "school",
+      "color": "#81C784",
+      "isLocked": false
+    }
+  ]
+}

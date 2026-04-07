@@ -32,4 +32,29 @@ class JsonLoaderService {
       throw Exception('Failed to load challenge $challengeId: $e');
     }
   }
+
+  Future<Map<String, dynamic>> loadLevelData(int levelId) async {
+    try {
+      final String fileName = 'level${levelId}_data.json';
+      final String jsonString = await rootBundle.loadString(
+        'assets/data/$fileName',
+      );
+      
+      return jsonDecode(jsonString);
+    } catch (e) {
+      throw Exception('Failed to load level $levelId data: $e');
+    }
+  }
+
+  Future<Map<String, dynamic>> loadAllLevels() async {
+    try {
+      final String jsonString = await rootBundle.loadString(
+        'assets/data/all_levels.json',
+      );
+      
+      return jsonDecode(jsonString);
+    } catch (e) {
+      throw Exception('Failed to load all levels: $e');
+    }
+  }
 }
