@@ -2,7 +2,7 @@
   "levelId": 4,
   "levelName": "LEVEL 4",
   "subtitle": "Deep Reinforcement Learning",
-  "totalChallenges": 10,
+  "totalChallenges": 12,
   "challenges": [
     {
       "challengeId": "C16",
@@ -102,6 +102,26 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "speed",
+      "questions": []
+    },
+    {
+      "challengeId": "C26",
+      "title": "Policy Gradient and REINFORCE",
+      "description": "Policy gradient theorem, REINFORCE algorithm, baselines and variance reduction, advantage functions, Actor-Critic (A2C, A3C), GAE, trust regions, TRPO, Natural Policy Gradient, and deterministic policy gradients.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "trending_flat",
+      "questions": []
+    },
+    {
+      "challengeId": "C27",
+      "title": "Advanced Actor-Critic: DDPG, TD3, SAC and PPO",
+      "description": "DDPG for continuous control, TD3 with clipped double Q-learning and delayed updates, SAC with maximum entropy, PPO with clipped surrogate objective, and continuous action space policies.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "rocket_launch",
       "questions": []
     }
   ]

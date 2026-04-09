@@ -131,6 +131,18 @@ final Level level4 = Level(
       subtitle: 'Sample-Efficient Methods: Dueling DDQN, PER and Distributional RL',
       assetPath: 'assets/questions/challenge_25.json',
     ),
+    ChallengeInfo(
+      id: 'C26',
+      name: 'CHALLENGE 26',
+      subtitle: 'Policy Gradient and REINFORCE',
+      assetPath: 'assets/questions/challenge_26.json',
+    ),
+    ChallengeInfo(
+      id: 'C27',
+      name: 'CHALLENGE 27',
+      subtitle: 'Advanced Actor-Critic: DDPG, TD3, SAC and PPO',
+      assetPath: 'assets/questions/challenge_27.json',
+    ),
   ],
 );
 
