@@ -35,7 +35,7 @@
       "levelName": "LEVEL 4",
       "subtitle": "Deep Reinforcement Learning",
       "description": "Master RL from MDPs to DQN, Actor-Critic, PPO, and SAC. Learn value-based and policy-based methods for training intelligent agents.",
-      "totalChallenges": 8,
+      "totalChallenges": 10,
       "icon": "smart_toy",
       "color": "#00BCD4",
       "isLocked": false

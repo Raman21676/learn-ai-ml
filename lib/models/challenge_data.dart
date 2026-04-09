@@ -119,6 +119,18 @@ final Level level4 = Level(
       subtitle: 'Value-Based Deep RL and Function Approximation',
       assetPath: 'assets/questions/challenge_23.json',
     ),
+    ChallengeInfo(
+      id: 'C24',
+      name: 'CHALLENGE 24',
+      subtitle: 'DQN and Stable Value-Based Methods',
+      assetPath: 'assets/questions/challenge_24.json',
+    ),
+    ChallengeInfo(
+      id: 'C25',
+      name: 'CHALLENGE 25',
+      subtitle: 'Sample-Efficient Methods: Dueling DDQN, PER and Distributional RL',
+      assetPath: 'assets/questions/challenge_25.json',
+    ),
   ],
 );
 

@@ -2,7 +2,7 @@
   "levelId": 4,
   "levelName": "LEVEL 4",
   "subtitle": "Deep Reinforcement Learning",
-  "totalChallenges": 8,
+  "totalChallenges": 10,
   "challenges": [
     {
       "challengeId": "C16",
@@ -82,6 +82,26 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "memory",
+      "questions": []
+    },
+    {
+      "challengeId": "C24",
+      "title": "DQN and Stable Value-Based Methods",
+      "description": "DQN architecture for Atari, frame preprocessing, stacking and skipping, reward clipping, Double DQN, Dueling DQN, Noisy Nets, C51, Rainbow, and distributed architectures (Ape-X, IMPALA, R2D2).",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "videogame_asset",
+      "questions": []
+    },
+    {
+      "challengeId": "C25",
+      "title": "Sample-Efficient Methods: Dueling DDQN, PER and Distributional RL",
+      "description": "Prioritized Experience Replay, sum-tree implementation, importance sampling, Dueling DDQN, QR-DQN, IQN, FQF, data-efficient methods (DER, EfficientZero, Dreamer), and data augmentation (RAD, DrQ, SPR).",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "speed",
       "questions": []
     }
   ]
