@@ -101,5 +101,11 @@ final Level level2 = Level(
       subtitle: 'Support Vector Machines',
       assetPath: 'assets/questions/challenge_09.json',
     ),
+    ChallengeInfo(
+      id: 'C10',
+      name: 'CHALLENGE 10',
+      subtitle: 'Decision Trees',
+      assetPath: 'assets/questions/challenge_10.json',
+    ),
   ],
 );

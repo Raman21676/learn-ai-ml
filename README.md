@@ -4,7 +4,7 @@ An offline Android quiz application for mastering AI-ML concepts through interac
 
 ## Features
 
-- **9 Challenges** - 450 carefully crafted questions
+- **10 Challenges** - 500 carefully crafted questions
 - **Offline First** - No internet required
 - **Progress Tracking** - Track your learning journey
 - **Dark Mode** - Comfortable learning day and night
@@ -23,8 +23,9 @@ An offline Android quiz application for mastering AI-ML concepts through interac
 | C07 | Classification | 50 |
 | C08 | Training Models | 50 |
 | C09 | Support Vector Machines | 50 |
+| C10 | Decision Trees | 50 |
 
-**Total: 450 Questions**
+**Total: 500 Questions**
 
 ## Project Structure
 
@@ -77,4 +78,4 @@ The app is designed to support multiple levels. Future content can be added as:
 
 ---
 
-**Status:** ✅ 450 Questions Ready for Testing
+**Status:** ✅ 500 Questions Ready for Testing

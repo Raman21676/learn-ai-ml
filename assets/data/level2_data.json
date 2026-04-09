@@ -2,7 +2,7 @@
   "levelId": 2,
   "levelName": "LEVEL 2",
   "subtitle": "Intermediate ML Concepts",
-  "totalChallenges": 5,
+  "totalChallenges": 6,
   "challenges": [
     {
       "challengeId": "C05",
@@ -52,6 +52,16 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "support_agent",
+      "questions": []
+    },
+    {
+      "challengeId": "C10",
+      "title": "Decision Trees",
+      "description": "Master Decision Trees: CART algorithm, Gini and Entropy, pruning, regularization hyperparameters, and regression trees.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "account_tree",
       "questions": []
     }
   ]
