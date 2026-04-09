@@ -2,7 +2,7 @@
   "levelId": 4,
   "levelName": "LEVEL 4",
   "subtitle": "Deep Reinforcement Learning",
-  "totalChallenges": 4,
+  "totalChallenges": 6,
   "challenges": [
     {
       "challengeId": "C16",
@@ -42,6 +42,26 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "explore",
+      "questions": []
+    },
+    {
+      "challengeId": "C20",
+      "title": "Evaluating Agents and Value Functions",
+      "description": "Policy evaluation with MC and TD methods, eligibility traces, function approximation, GPI, learning curves, benchmarking, statistical significance, sample efficiency, and off-policy evaluation.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "assessment",
+      "questions": []
+    },
+    {
+      "challengeId": "C21",
+      "title": "Improving Agents and Agent Anatomy",
+      "description": "Agent anatomy (policy, value, model), actor-critic architecture, experience replay, target networks, Dyna, MCTS, deadly triad, gradient clipping, normalization, curriculum learning, and distributed RL.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "engineering",
       "questions": []
     }
   ]

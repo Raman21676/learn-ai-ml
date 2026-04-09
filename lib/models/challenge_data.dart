@@ -95,6 +95,18 @@ final Level level4 = Level(
       subtitle: 'Exploration vs Exploitation',
       assetPath: 'assets/questions/challenge_19.json',
     ),
+    ChallengeInfo(
+      id: 'C20',
+      name: 'CHALLENGE 20',
+      subtitle: 'Evaluating Agents and Value Functions',
+      assetPath: 'assets/questions/challenge_20.json',
+    ),
+    ChallengeInfo(
+      id: 'C21',
+      name: 'CHALLENGE 21',
+      subtitle: 'Improving Agents and Agent Anatomy',
+      assetPath: 'assets/questions/challenge_21.json',
+    ),
   ],
 );
 
