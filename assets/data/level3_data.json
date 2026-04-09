@@ -1,0 +1,38 @@
+{
+  "levelId": 3,
+  "levelName": "LEVEL 3",
+  "subtitle": "DSA for Interviews",
+  "totalChallenges": 3,
+  "challenges": [
+    {
+      "challengeId": "C13",
+      "title": "Arrays, Strings, Hashing & Basic Algorithms",
+      "description": "Master fundamental DSA: arrays, strings, hash maps, two pointers, sliding window, sorting, binary search, and Big O complexity analysis.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "code",
+      "questions": []
+    },
+    {
+      "challengeId": "C14",
+      "title": "Linked Lists, Stacks, Queues, Trees & Heaps",
+      "description": "Master core data structures: linked lists, stacks, queues, binary trees, BST, tree traversals, and heap-based priority queues.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "account_tree",
+      "questions": []
+    },
+    {
+      "challengeId": "C15",
+      "title": "Recursion, Backtracking, DP & Graphs",
+      "description": "Master advanced algorithms: recursion, backtracking, dynamic programming, graph traversals (BFS/DFS), shortest paths, and topological sort.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "hub",
+      "questions": []
+    }
+  ]
+}

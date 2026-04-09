@@ -333,7 +333,8 @@ intl: ^0.19.0
 ```
 LEVEL 1 (AI-ML Fundamentals) - 4 Challenges, 200 questions
 LEVEL 2 (Intermediate ML Concepts) - 8 Challenges, 400 questions
-Total: 12 Challenges, 600 questions
+LEVEL 3 (DSA for Interviews) - 3 Challenges, 150 questions
+Total: 15 Challenges, 750 questions
 ```
 
 ---
@@ -341,7 +342,7 @@ Total: 12 Challenges, 600 questions
 ## Next Steps / TODO
 
 1. **Chapter 5:** Extract and create questions for Support Vector Machines
-2. **Add More Levels:** Continue adding chapters as LEVEL 3, 4, etc.
+2. **Add More Levels:** Continue adding chapters as LEVEL 4, 5, etc.
 3. **Question Randomization:** Currently questions appear in fixed order
 4. **Timer Feature:** Add countdown timer for quizzes
 5. **Leaderboard:** Add global/local leaderboard

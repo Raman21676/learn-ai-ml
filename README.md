@@ -4,7 +4,7 @@ An offline Android quiz application for mastering AI-ML concepts through interac
 
 ## Features
 
-- **12 Challenges** - 600 carefully crafted questions
+- **15 Challenges** - 750 carefully crafted questions
 - **Offline First** - No internet required
 - **Progress Tracking** - Track your learning journey
 - **Dark Mode** - Comfortable learning day and night
@@ -27,7 +27,15 @@ An offline Android quiz application for mastering AI-ML concepts through interac
 | C11 | Ensemble Learning and Random Forests | 50 |
 | C12 | Dimensionality Reduction | 50 |
 
-**Total: 600 Questions**
+## LEVEL 3: DSA for Interviews
+
+| Challenge | Name | Questions |
+|-----------|------|-----------|
+| C13 | Arrays, Strings, Hashing & Basic Algorithms | 50 |
+| C14 | Linked Lists, Stacks, Queues, Trees & Heaps | 50 |
+| C15 | Recursion, Backtracking, DP & Graphs | 50 |
+
+**Total: 750 Questions**
 
 ## Project Structure
 
@@ -80,4 +88,4 @@ The app is designed to support multiple levels. Future content can be added as:
 
 ---
 
-**Status:** ✅ 600 Questions Ready for Testing
+**Status:** ✅ 750 Questions Ready for Testing

@@ -40,6 +40,8 @@ class AppStrings {
   static const String level1Subtitle = 'AI-ML Fundamentals';
   static const String level2Title = 'LEVEL 2';
   static const String level2Subtitle = 'Intermediate ML Concepts';
+  static const String level3Title = 'LEVEL 3';
+  static const String level3Subtitle = 'DSA for Interviews';
   static const String challenges = 'Challenges';
   static const String locked = 'Locked';
   static const String completed = 'Completed';

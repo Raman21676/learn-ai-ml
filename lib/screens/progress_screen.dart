@@ -92,6 +92,21 @@ class ProgressScreen extends StatelessWidget {
               final progress = progressProvider.getProgressForChallenge(entry.value.id);
               return _buildChallengeProgressTile(context, entry.value, progress, entry.key + level1.challenges.length);
             }),
+
+            const SizedBox(height: 32),
+
+            Text(
+              'LEVEL 3 Progress',
+              style: theme.textTheme.titleLarge?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            const SizedBox(height: 16),
+
+            ...level3.challenges.asMap().entries.map((entry) {
+              final progress = progressProvider.getProgressForChallenge(entry.value.id);
+              return _buildChallengeProgressTile(context, entry.value, progress, entry.key + level1.challenges.length + level2.challenges.length);
+            }),
           ],
         ),
       ),

@@ -121,3 +121,31 @@ final Level level2 = Level(
     ),
   ],
 );
+
+// LEVEL 3 - DSA for Interviews
+final Level level3 = Level(
+  id: 'L3',
+  name: 'LEVEL 3',
+  description: 'Data Structures & Algorithms - Master DSA concepts to crack technical interviews',
+  color: '#FF7043',
+  challenges: [
+    ChallengeInfo(
+      id: 'C13',
+      name: 'CHALLENGE 13',
+      subtitle: 'Arrays, Strings, Hashing & Basic Algorithms',
+      assetPath: 'assets/questions/challenge_13.json',
+    ),
+    ChallengeInfo(
+      id: 'C14',
+      name: 'CHALLENGE 14',
+      subtitle: 'Linked Lists, Stacks, Queues, Trees & Heaps',
+      assetPath: 'assets/questions/challenge_14.json',
+    ),
+    ChallengeInfo(
+      id: 'C15',
+      name: 'CHALLENGE 15',
+      subtitle: 'Recursion, Backtracking, DP & Graphs',
+      assetPath: 'assets/questions/challenge_15.json',
+    ),
+  ],
+);

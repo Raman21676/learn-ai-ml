@@ -91,12 +91,20 @@ class LevelSelectionScreen extends StatelessWidget {
                   
                   const SizedBox(height: 16),
                   
-                  // Coming Soon Card
-                  _buildComingSoonCard(
+                  // Level 3 Card
+                  _buildLevelCard(
                     context,
-                    levelName: 'LEVEL 3',
-                    description: 'Advanced concepts coming soon...',
+                    level: level3,
+                    levelId: 3,
                     isDark: isDark,
+                    icon: Icons.code,
+                    gradientColors: [AppColors.warning, AppColors.error],
+                    onTap: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const LevelScreen(levelId: 3),
+                      ),
+                    ),
                   ),
                 ],
               ),
