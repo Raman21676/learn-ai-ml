@@ -83,6 +83,18 @@ final Level level4 = Level(
       subtitle: 'Mathematical Foundations and MDPs',
       assetPath: 'assets/questions/challenge_17.json',
     ),
+    ChallengeInfo(
+      id: 'C18',
+      name: 'CHALLENGE 18',
+      subtitle: 'Rewards, Returns and Agent Objective',
+      assetPath: 'assets/questions/challenge_18.json',
+    ),
+    ChallengeInfo(
+      id: 'C19',
+      name: 'CHALLENGE 19',
+      subtitle: 'Exploration vs Exploitation',
+      assetPath: 'assets/questions/challenge_19.json',
+    ),
   ],
 );
 

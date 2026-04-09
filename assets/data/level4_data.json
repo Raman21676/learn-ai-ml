@@ -2,7 +2,7 @@
   "levelId": 4,
   "levelName": "LEVEL 4",
   "subtitle": "Deep Reinforcement Learning",
-  "totalChallenges": 2,
+  "totalChallenges": 4,
   "challenges": [
     {
       "challengeId": "C16",
@@ -22,6 +22,26 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "functions",
+      "questions": []
+    },
+    {
+      "challengeId": "C18",
+      "title": "Rewards, Returns and Agent Objective",
+      "description": "Reward design, sparse vs dense rewards, reward shaping, intrinsic motivation, curiosity-driven learning, returns and discounting, GAE, n-step returns, and multi-objective RL.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "trending_up",
+      "questions": []
+    },
+    {
+      "challengeId": "C19",
+      "title": "Exploration vs Exploitation",
+      "description": "Epsilon-greedy, softmax/Boltzmann, UCB, Thompson Sampling, count-based exploration, curiosity-driven methods, RND, parameter space noise, entropy regularization, and noisy networks.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "explore",
       "questions": []
     }
   ]
