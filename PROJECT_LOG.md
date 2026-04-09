@@ -314,11 +314,26 @@ intl: ^0.19.0
 - Updated `lib/screens/progress_screen.dart` to show both Level 1 and Level 2 progress
 - Updated `README.md` with new challenge list
 
+### Activity 4: Created Challenge C09 (50 Questions)
+- **File:** `assets/questions/challenge_09.json`
+- **Title:** Support Vector Machines
+- **Topics covered:**
+  - Large margin classification and Support Vectors
+  - Hard margin vs Soft margin classification
+  - C hyperparameter and regularization
+  - LinearSVC vs SVC
+  - Kernel trick: Polynomial and RBF kernels
+  - Gamma hyperparameter
+  - SVM Regression (SVR)
+  - Feature scaling importance
+  - SVM computational complexity
+- **Answer distribution:** 12 A, 13 B, 12 C, 13 D
+
 ### Current Structure
 ```
 LEVEL 1 (AI-ML Fundamentals) - 4 Challenges, 200 questions
-LEVEL 2 (Intermediate ML Concepts) - 4 Challenges, 200 questions
-Total: 8 Challenges, 400 questions
+LEVEL 2 (Intermediate ML Concepts) - 5 Challenges, 250 questions
+Total: 9 Challenges, 450 questions
 ```
 
 ---

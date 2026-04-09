@@ -2,7 +2,7 @@
   "levelId": 2,
   "levelName": "LEVEL 2",
   "subtitle": "Intermediate ML Concepts",
-  "totalChallenges": 4,
+  "totalChallenges": 5,
   "challenges": [
     {
       "challengeId": "C05",
@@ -42,6 +42,16 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "model_training",
+      "questions": []
+    },
+    {
+      "challengeId": "C09",
+      "title": "Support Vector Machines",
+      "description": "Master SVM: large margin classification, soft margin, kernels (polynomial, RBF), SVM regression, and practical usage.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "support_agent",
       "questions": []
     }
   ]

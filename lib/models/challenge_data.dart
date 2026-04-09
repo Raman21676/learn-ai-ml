@@ -95,5 +95,11 @@ final Level level2 = Level(
       subtitle: 'Training Models',
       assetPath: 'assets/questions/challenge_08.json',
     ),
+    ChallengeInfo(
+      id: 'C09',
+      name: 'CHALLENGE 9',
+      subtitle: 'Support Vector Machines',
+      assetPath: 'assets/questions/challenge_09.json',
+    ),
   ],
 );

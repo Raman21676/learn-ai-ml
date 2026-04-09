@@ -90,7 +90,7 @@ class ProgressScreen extends StatelessWidget {
 
             ...level2.challenges.asMap().entries.map((entry) {
               final progress = progressProvider.getProgressForChallenge(entry.value.id);
-              return _buildChallengeProgressTile(context, entry.value, progress, entry.key + 4);
+              return _buildChallengeProgressTile(context, entry.value, progress, entry.key + level1.challenges.length);
             }),
           ],
         ),
