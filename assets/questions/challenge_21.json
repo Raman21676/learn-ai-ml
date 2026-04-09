@@ -125,15 +125,15 @@
     },
     {
       "id": 11,
-      "question": "What is 'Generalized Policy Iteration' (GPI)?",
+      "question": "How does the actor in an actor-critic architecture use the critic's feedback to update its policy?",
       "options": [
-        "The general idea of interleaving policy evaluation and policy improvement, without requiring either to fully complete before the other",
-        "A specific RL algorithm",
-        "A one-step update rule",
-        "Only for model-based methods"
+        "The actor directly copies the critic's weights",
+        "The actor updates in the direction that increases the probability of actions receiving positive advantage estimates from the critic",
+        "The actor ignores the critic and uses random updates",
+        "The actor decreases learning rate when the critic is uncertain"
       ],
-      "correctIndex": 0,
-      "explanation": "GPI is the general framework where policy evaluation and improvement alternate. Most RL algorithms follow this pattern, even if evaluation and improvement are only partial at each step."
+      "correctIndex": 1,
+      "explanation": "The actor performs policy gradient updates using the critic's advantage estimates as the learning signal. Positive advantages increase action probabilities; negative advantages decrease them."
     },
     {
       "id": 12,
@@ -389,15 +389,15 @@
     },
     {
       "id": 33,
-      "question": "What is 'reward normalization' and why is it useful?",
+      "question": "What is 'gradient accumulation' and when is it useful in deep RL training?",
       "options": [
-        "Removing all rewards",
-        "Randomizing reward signs",
-        "Multiplying rewards by zero",
-        "Standardizing rewards to have consistent scale, which helps stabilize learning and makes hyperparameters more transferable"
+        "Always accumulating all gradients forever",
+        "Computing gradients over multiple mini-batches before performing a single weight update, useful when GPU memory is limited",
+        "Randomly adding gradients together",
+        "Removing gradients after each step"
       ],
-      "correctIndex": 3,
-      "explanation": "Reward normalization scales rewards to a consistent range. This prevents gradient magnitudes from varying wildly across tasks and helps make learning rates more transferable."
+      "correctIndex": 1,
+      "explanation": "Gradient accumulation splits a large batch into smaller sub-batches, accumulates their gradients, and performs one update. This allows effective large-batch training with limited memory."
     },
     {
       "id": 34,

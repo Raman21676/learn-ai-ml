@@ -41,15 +41,15 @@
     },
     {
       "id": 4,
-      "question": "What is 'reward shaping' in reinforcement learning?",
+      "question": "What is the 'principle of optimality' as it applies to reinforcement learning returns?",
       "options": [
-        "Adding auxiliary, intermediate rewards to guide the agent toward the goal more effectively",
-        "Removing all rewards",
-        "Randomizing the reward function",
-        "Doubling all reward values"
+        "The optimal return is always the maximum possible return",
+        "An optimal policy has the property that whatever the initial state and action are, the remaining decisions must constitute an optimal policy for the resulting state",
+        "The return is independent of the initial state",
+        "The optimal return can only be achieved with deterministic policies"
       ],
-      "correctIndex": 0,
-      "explanation": "Reward shaping involves designing additional intermediate rewards that provide more frequent feedback, helping the agent learn faster in sparse reward environments."
+      "correctIndex": 1,
+      "explanation": "Bellman's principle of optimality states that optimal policies are composed of optimal sub-policies. This recursive structure is what makes dynamic programming and RL tractable."
     },
     {
       "id": 5,
@@ -77,15 +77,15 @@
     },
     {
       "id": 7,
-      "question": "What is the 'return' G_t in reinforcement learning?",
+      "question": "How does the concept of 'expected return' differ from a single sampled return in stochastic environments?",
       "options": [
-        "The total discounted reward from time step t onward until the end of the episode or infinity",
-        "The immediate reward at time t",
-        "The number of actions taken",
-        "The probability of success"
+        "They are always identical",
+        "A sampled return is one specific outcome; the expected return averages over all possible outcomes weighted by their probabilities",
+        "Expected return is only for deterministic environments",
+        "Sampled return is always larger"
       ],
-      "correctIndex": 0,
-      "explanation": "The return G_t is the sum of all future rewards, discounted by γ: G_t = R_{t+1} + γR_{t+2} + γ²R_{t+3} + ..."
+      "correctIndex": 1,
+      "explanation": "In stochastic environments, a single trajectory gives one sampled return. The expected return averages over all possible trajectories, giving the true performance of the policy."
     },
     {
       "id": 8,

@@ -5,7 +5,7 @@
       "levelName": "LEVEL 1",
       "subtitle": "Foundations of AI & ML",
       "description": "Learn the basics of artificial intelligence and machine learning.",
-      "totalChallenges": 6,
+      "totalChallenges": 4,
       "icon": "psychology",
       "color": "#4FC3F7",
       "isLocked": false
@@ -35,7 +35,7 @@
       "levelName": "LEVEL 4",
       "subtitle": "Deep Reinforcement Learning",
       "description": "Master RL from MDPs to DQN, Actor-Critic, PPO, and SAC. Learn value-based and policy-based methods for training intelligent agents.",
-      "totalChallenges": 4,
+      "totalChallenges": 8,
       "icon": "smart_toy",
       "color": "#00BCD4",
       "isLocked": false

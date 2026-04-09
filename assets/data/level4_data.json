@@ -2,7 +2,7 @@
   "levelId": 4,
   "levelName": "LEVEL 4",
   "subtitle": "Deep Reinforcement Learning",
-  "totalChallenges": 6,
+  "totalChallenges": 8,
   "challenges": [
     {
       "challengeId": "C16",
@@ -62,6 +62,26 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "engineering",
+      "questions": []
+    },
+    {
+      "challengeId": "C22",
+      "title": "TD Learning and Robust Targets",
+      "description": "SARSA, Q-Learning, Expected SARSA, Double Q-Learning, Clipped Double Q-Learning, fixed Q-targets, Double DQN, multi-step learning, PER, distributional RL, and Rainbow DQN.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "track_changes",
+      "questions": []
+    },
+    {
+      "challengeId": "C23",
+      "title": "Value-Based Deep RL and Function Approximation",
+      "description": "DQN architecture, CNNs for visual inputs, experience replay, target networks, function approximation, tile coding, RBFs, feature construction, world models, latent space, offline RL, and normalization techniques.",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "memory",
       "questions": []
     }
   ]

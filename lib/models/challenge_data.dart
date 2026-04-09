@@ -107,6 +107,18 @@ final Level level4 = Level(
       subtitle: 'Improving Agents and Agent Anatomy',
       assetPath: 'assets/questions/challenge_21.json',
     ),
+    ChallengeInfo(
+      id: 'C22',
+      name: 'CHALLENGE 22',
+      subtitle: 'TD Learning and Robust Targets',
+      assetPath: 'assets/questions/challenge_22.json',
+    ),
+    ChallengeInfo(
+      id: 'C23',
+      name: 'CHALLENGE 23',
+      subtitle: 'Value-Based Deep RL and Function Approximation',
+      assetPath: 'assets/questions/challenge_23.json',
+    ),
   ],
 );
 
