@@ -229,6 +229,12 @@ final Level level5 = Level(
       subtitle: 'Looking Inside Large Language Models',
       assetPath: 'assets/questions/challenge_30.json',
     ),
+    ChallengeInfo(
+      id: 'C31',
+      name: 'CHALLENGE 31',
+      subtitle: 'Text Classification',
+      assetPath: 'assets/questions/challenge_31.json',
+    ),
   ],
 );
 

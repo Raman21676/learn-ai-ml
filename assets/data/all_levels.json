@@ -25,7 +25,7 @@
       "levelName": "LEVEL 3",
       "subtitle": "DSA for Interviews",
       "description": "Master data structures and algorithms to crack technical interviews.",
-      "totalChallenges": 3,
+      "totalChallenges": 4,
       "icon": "code",
       "color": "#FF7043",
       "isLocked": false
