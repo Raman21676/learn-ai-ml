@@ -8,8 +8,8 @@
       "id": "C40_Q1",
       "question": "What is the simplest definition of DevOps?",
       "options": [
-        "A programming language for operations",
         "Making the process of continuous delivery fast and with minimal errors",
+        "A programming language for operations",
         "A specific job title in companies",
         "A database management system"
       ],
@@ -68,12 +68,12 @@
       "id": "C40_Q6",
       "question": "What are the core components of the DevOps lifecycle represented in the infinity loop?",
       "options": [
-        "Design, Develop, Test, Deploy",
         "Plan, Code, Build, Test, Release, Deploy, Operate, Monitor",
+        "Design, Develop, Test, Deploy",
         "Analyze, Implement, Verify, Maintain",
         "Request, Approve, Execute, Review"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "The DevOps infinity loop represents: Plan, Code, Build, Test, Release, Deploy, Operate, and Monitor as a continuous cycle."
     },
     {
