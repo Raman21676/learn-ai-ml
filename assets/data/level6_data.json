@@ -1,0 +1,19 @@
+{
+  "levelId": 6,
+  "levelName": "LEVEL 6",
+  "subtitle": "DevOps Mastery",
+  "description": "Master DevOps from fundamentals to advanced. Learn Linux, CI/CD, Docker, Kubernetes, Terraform, Ansible, and monitoring tools for cloud-native infrastructure.",
+  "totalChallenges": 1,
+  "challenges": [
+    {
+      "challengeId": "C40",
+      "title": "DevOps Fundamentals & Linux Basics",
+      "description": "DevOps culture, CI/CD concepts, operating system fundamentals, Linux file system, kernel, and basic administration",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "build",
+      "questions": []
+    }
+  ]
+}

@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final progressProvider = context.watch<ProgressProvider>();
     final completedCount = progressProvider.completedChallengesCount;
     final overallProgress = progressProvider.getOverallProgress();
-    final totalChallenges = level1.challenges.length + level2.challenges.length + level3.challenges.length + level4.challenges.length + level5.challenges.length;
+    final totalChallenges = level1.challenges.length + level2.challenges.length + level3.challenges.length + level4.challenges.length + level5.challenges.length + level6.challenges.length;
 
     return Scaffold(
       body: CustomScrollView(
@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Master AI-ML with $totalChallenges challenges and 1950+ questions.',
+                    'Master AI-ML with $totalChallenges challenges and 2000+ questions.',
                     style: theme.textTheme.bodyLarge?.copyWith(
                       color: theme.colorScheme.onSurface.withOpacity(0.7),
                     ),
@@ -212,7 +212,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     context,
                     icon: Icons.psychology,
                     title: 'Comprehensive Coverage',
-                    subtitle: '1950+ questions across 39 challenges',
+                    subtitle: '2000+ questions across 40 challenges',
                   ),
                   _buildFeatureTile(
                     context,

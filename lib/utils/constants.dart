@@ -46,6 +46,8 @@ class AppStrings {
   static const String level4Subtitle = 'Deep RL: DQN, Policy Gradients, Actor-Critic & PPO';
   static const String level5Title = 'LEVEL 5';
   static const String level5Subtitle = 'Large Language Models: Transformers, BERT, GPT & Fine-Tuning';
+  static const String level6Title = 'LEVEL 6';
+  static const String level6Subtitle = 'DevOps: Linux, CI/CD, Docker, Kubernetes & Cloud';
   static const String challenges = 'Challenges';
   static const String locked = 'Locked';
   static const String completed = 'Completed';

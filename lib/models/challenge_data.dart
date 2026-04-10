@@ -286,6 +286,22 @@ final Level level5 = Level(
   ],
 );
 
+// LEVEL 6 - DevOps
+final Level level6 = Level(
+  id: 'L6',
+  name: 'LEVEL 6',
+  description: 'DevOps: Fundamentals, Linux, CI/CD, Docker, Kubernetes, Cloud & Monitoring',
+  color: '#FF9800',
+  challenges: [
+    ChallengeInfo(
+      id: 'C40',
+      name: 'CHALLENGE 40',
+      subtitle: 'DevOps Fundamentals & Linux Basics',
+      assetPath: 'assets/questions/challenge_40.json',
+    ),
+  ],
+);
+
 // LEVEL 3 - Deep Reinforcement Learning
 final Level level3 = Level(
   id: 'L3',

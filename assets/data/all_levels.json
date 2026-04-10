@@ -49,6 +49,16 @@
       "icon": "chat",
       "color": "#E91E63",
       "isLocked": false
+    },
+    {
+      "levelId": 6,
+      "levelName": "LEVEL 6",
+      "subtitle": "DevOps Mastery",
+      "description": "Master DevOps from fundamentals to advanced. Learn Linux, CI/CD, Docker, Kubernetes, Terraform, Ansible, and monitoring for cloud-native infrastructure.",
+      "totalChallenges": 1,
+      "icon": "build",
+      "color": "#FF9800",
+      "isLocked": false
     }
   ]
 }
