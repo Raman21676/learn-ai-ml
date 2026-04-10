@@ -3,7 +3,7 @@
   "levelName": "LEVEL 5",
   "subtitle": "Large Language Models",
   "description": "Master LLMs from embeddings and tokenization to Transformers, BERT, GPT, and practical applications.",
-  "totalChallenges": 10,
+  "totalChallenges": 11,
   "challenges": [
     {
       "challengeId": "C28",
@@ -103,6 +103,16 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "model_training",
+      "questions": []
+    },
+    {
+      "challengeId": "C38",
+      "title": "Fine-Tuning BERT for Classification",
+      "description": "Supervised classification fine-tuning, freezing layers, few-shot learning with SetFit, continued pretraining with MLM, and named-entity recognition",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "tune",
       "questions": []
     }
   ]

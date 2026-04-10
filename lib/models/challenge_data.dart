@@ -271,6 +271,12 @@ final Level level5 = Level(
       subtitle: 'Creating Text Embedding Models',
       assetPath: 'assets/questions/challenge_37.json',
     ),
+    ChallengeInfo(
+      id: 'C38',
+      name: 'CHALLENGE 38',
+      subtitle: 'Fine-Tuning BERT for Classification',
+      assetPath: 'assets/questions/challenge_38.json',
+    ),
   ],
 );
 
