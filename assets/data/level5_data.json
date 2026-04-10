@@ -3,7 +3,7 @@
   "levelName": "LEVEL 5",
   "subtitle": "Large Language Models",
   "description": "Master LLMs from embeddings and tokenization to Transformers, BERT, GPT, and practical applications.",
-  "totalChallenges": 9,
+  "totalChallenges": 10,
   "challenges": [
     {
       "challengeId": "C28",
@@ -93,6 +93,16 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "image",
+      "questions": []
+    },
+    {
+      "challengeId": "C37",
+      "title": "Creating Text Embedding Models",
+      "description": "Training and fine-tuning embedding models, contrastive learning, sentence-transformers, bi-encoders, loss functions, evaluation",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "model_training",
       "questions": []
     }
   ]

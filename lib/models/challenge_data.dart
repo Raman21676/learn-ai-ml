@@ -265,6 +265,12 @@ final Level level5 = Level(
       subtitle: 'Multimodal Large Language Models',
       assetPath: 'assets/questions/challenge_36.json',
     ),
+    ChallengeInfo(
+      id: 'C37',
+      name: 'CHALLENGE 37',
+      subtitle: 'Creating Text Embedding Models',
+      assetPath: 'assets/questions/challenge_37.json',
+    ),
   ],
 );
 
