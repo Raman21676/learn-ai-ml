@@ -3,7 +3,7 @@
   "levelName": "LEVEL 6",
   "subtitle": "DevOps Mastery",
   "description": "Master DevOps from fundamentals to advanced. Learn Linux, CI/CD, Docker, Kubernetes, Terraform, Ansible, and monitoring tools for cloud-native infrastructure.",
-  "totalChallenges": 1,
+  "totalChallenges": 2,
   "challenges": [
     {
       "challengeId": "C40",
@@ -13,6 +13,16 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "build",
+      "questions": []
+    },
+    {
+      "challengeId": "C41",
+      "title": "Linux Administration & Shell Scripting",
+      "description": "Linux CLI, package managers, user management, file permissions, shell scripting basics, variables, and environment variables",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "terminal",
       "questions": []
     }
   ]

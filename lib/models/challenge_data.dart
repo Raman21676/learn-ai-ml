@@ -299,6 +299,12 @@ final Level level6 = Level(
       subtitle: 'DevOps Fundamentals & Linux Basics',
       assetPath: 'assets/questions/challenge_40.json',
     ),
+    ChallengeInfo(
+      id: 'C41',
+      name: 'CHALLENGE 41',
+      subtitle: 'Linux Administration & Shell Scripting',
+      assetPath: 'assets/questions/challenge_41.json',
+    ),
   ],
 );
 
