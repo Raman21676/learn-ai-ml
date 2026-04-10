@@ -259,6 +259,12 @@ final Level level5 = Level(
       subtitle: 'Semantic Search and Retrieval-Augmented Generation',
       assetPath: 'assets/questions/challenge_35.json',
     ),
+    ChallengeInfo(
+      id: 'C36',
+      name: 'CHALLENGE 36',
+      subtitle: 'Multimodal Large Language Models',
+      assetPath: 'assets/questions/challenge_36.json',
+    ),
   ],
 );
 
