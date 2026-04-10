@@ -253,6 +253,12 @@ final Level level5 = Level(
       subtitle: 'Advanced Text Generation Techniques and Tools',
       assetPath: 'assets/questions/challenge_34.json',
     ),
+    ChallengeInfo(
+      id: 'C35',
+      name: 'CHALLENGE 35',
+      subtitle: 'Semantic Search and Retrieval-Augmented Generation',
+      assetPath: 'assets/questions/challenge_35.json',
+    ),
   ],
 );
 

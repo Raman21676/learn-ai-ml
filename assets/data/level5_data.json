@@ -3,7 +3,7 @@
   "levelName": "LEVEL 5",
   "subtitle": "Large Language Models",
   "description": "Master LLMs from embeddings and tokenization to Transformers, BERT, GPT, and practical applications.",
-  "totalChallenges": 7,
+  "totalChallenges": 8,
   "challenges": [
     {
       "challengeId": "C28",
@@ -73,6 +73,16 @@
       "timeLimit": 15,
       "requiredScore": 35,
       "icon": "build",
+      "questions": []
+    },
+    {
+      "challengeId": "C35",
+      "title": "Semantic Search and Retrieval-Augmented Generation",
+      "description": "Dense retrieval, vector databases, document chunking, reranking, RAG pipelines, evaluation metrics",
+      "totalQuestions": 50,
+      "timeLimit": 15,
+      "requiredScore": 35,
+      "icon": "search",
       "questions": []
     }
   ]
