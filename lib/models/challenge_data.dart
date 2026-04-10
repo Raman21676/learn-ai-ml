@@ -323,6 +323,12 @@ final Level level6 = Level(
       subtitle: 'Build Tools & Artifact Management',
       assetPath: 'assets/questions/challenge_44.json',
     ),
+    ChallengeInfo(
+      id: 'C45',
+      name: 'CHALLENGE 45',
+      subtitle: 'Docker & Containerization',
+      assetPath: 'assets/questions/challenge_45.json',
+    ),
   ],
 );
 
