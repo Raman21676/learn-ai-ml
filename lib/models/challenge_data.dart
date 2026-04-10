@@ -341,6 +341,12 @@ final Level level6 = Level(
       subtitle: 'AWS Cloud Fundamentals',
       assetPath: 'assets/questions/challenge_47.json',
     ),
+    ChallengeInfo(
+      id: 'C48',
+      name: 'CHALLENGE 48',
+      subtitle: 'Kubernetes & Container Orchestration',
+      assetPath: 'assets/questions/challenge_48.json',
+    ),
   ],
 );
 
